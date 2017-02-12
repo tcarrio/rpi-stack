@@ -1,6 +1,7 @@
 # rpi-stack
 
 Hardware Setup:
+* Model: Raspberry Pi 3 Model B
 * Operating System: [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 * SD Card: 8GB+
 * Installation:
