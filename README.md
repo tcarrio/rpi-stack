@@ -4,7 +4,7 @@ Hardware Setup:
 * Operating System: [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 * SD Card: 8GB+
 * Installation:
-  * Install Guide: https://www.raspberrypi.org/documentation/installation/installing-images/README.md
+  * Raspbian: https://www.raspberrypi.org/documentation/installation/installing-images/README.md
   * NOOBS for Easier Install: https://www.raspberrypi.org/downloads/noobs/
 
 *Keyboard/Display for Setting Up*
