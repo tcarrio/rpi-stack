@@ -16,3 +16,8 @@ Python Setup:
 * Installing Python packages: https://www.raspberrypi.org/documentation/linux/software/python.md
 * RPi.GPIO Python package: https://pypi.python.org/pypi/RPi.GPIO
 * Examples: https://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/
+
+Example Projects on GitHub Using Python GPIO:
+* [List of a couple dozen projects with various devices](https://github.com/Dayanand-Patil/Raspberry-Pi)
+* [Robot Car](https://github.com/jovanailic993/RaspberryPi-robot-car)
+* [Motorcycle Sensor](https://github.com/craigfortune/MotorcycleLeanSensor)
