@@ -21,3 +21,8 @@ Example Projects on GitHub Using Python GPIO:
 * [List of a couple dozen projects with various devices](https://github.com/Dayanand-Patil/Raspberry-Pi)
 * [Robot Car](https://github.com/jovanailic993/RaspberryPi-robot-car)
 * [Motorcycle Sensor](https://github.com/craigfortune/MotorcycleLeanSensor)
+* [GPIOExamples](https://github.com/williamhbell/GpioExamples)
+* [RPi Interfacing](https://github.com/BirchJD/Raspberry-Pi-Python-Interfacing)
+
+Possible Ideas:
+* [Use a more user-friendly device interface](https://github.com/RPi-Distro/python-gpiozero). This one makes using connected devices much simpler, with modules for LEDs, [range sensors](https://www.amazon.com/HC-SR04-Ultrasonic-Distance-MEGA2560-ElecRight/dp/B01MA4O5G5/ref=sr_1_2?ie=UTF8&qid=1487357864&sr=8-2&keywords=HC-SR04), [motors](https://gpiozero.readthedocs.io/en/v1.3.1/api_output.html#motor), and [more](https://gpiozero.readthedocs.io/en/v1.3.1/index.html). This one looks very promising to start off with. If something is mentioned in the module (such as the range sensor, which has a specific model given), try to get that. 
