@@ -47,3 +47,35 @@ The IP address can be found under the `wlan0` hardware using the command `ip a`.
 
 If there is no IP address here, you still need to connect to the network, so checkout [Connecting to a network](#).
 
+### Some Python Notes
+
+When you receive input from `raw_input` it will be a string, you would have to specify that you want it to be an integer or something yourself. So you could say `int(raw_input("Enter the first rod spec (in mm):"))` would return an int of whatever the user puts in.
+
+##### EXCEPT! 
+
+.. this is where you're starting to get into a new topic as well. That line of code is something that's very probable to have an exception. An exception is *thrown* when something happens that shouldn't, and the program needs to react to it.
+
+```python
+>>> int(raw_input('Hi there! '))
+Hi there! Hi back!
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'Hi back!'
+```
+
+That `ValueError` is an exception, and it gives an explanation that an "invalid literal for int()" was given
+
+*Exception handling* is used to react to these types of problems as an after-the-fact kind of situation. The `ValueError` kind of means "The user gave you the wrong input". With exception handling, it's "The user gave you the wrong kind of input, what would you like to do about that?" To which you can be like, "Tell that motherfucker to put in valid numbers and let's start over!"
+
+### A short example of exception handling:
+
+```python
+>>> try:
+...   int(raw_input("Enter a measurement: "))
+... except ValueError as v:
+...   print("Motherfucker that's not a number!\n%s" % v)
+... 
+Enter a measurement: loljk
+Motherfucker that's not a number!
+invalid literal for int() with base 10: 'loljk' 
+```
